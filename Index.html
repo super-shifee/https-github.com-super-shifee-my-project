@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiferaw - Web Design & Development Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="icon">
+                <h2 class="logo">Shiferaw</h2>
+                <div class="menu">
+                    <ul>
+                        <li><a href="Index.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Service</a></li>
+                        <li><a href="design.html">Design</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" name="search" id="searchInput" placeholder="Search...">
+                    <button class="btn" onclick="handleSearch()">Search</button>
+                </div>
+            </div>
+            
+            <div class="name">
+                <h1>Web design &<br><span>Developer</span><br>Course</h1>
+                <p class="par">Master the art of web design and development with our comprehensive course. <br>Learn HTML, CSS, JavaScript, and modern frameworks to build stunning, <br>responsive websites. Join thousands of students who have transformed their careers!</p>
+                <button class="Aa"><a href="contact.html">Join Us</a></button>
+            </div>
+            
+            <div class="form">
+                <h2>Login here</h2>
+                <form id="loginForm" onsubmit="handleLogin(event)">
+                    <input type="email" name="email" placeholder="Enter your email here" required>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <button type="submit" class="btnn">Login</button>
+                </form>
+
+                <p class="Link">Don't have an account?<br>
+                <a href="contact.html">Sign up here</a></p>
+                <p class="liw">Log in with</p>
+
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" title="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#" title="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#" title="Google"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#" title="Skype"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
