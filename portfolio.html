@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Portfolio</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#register" class="nav-link">Register</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">shiferaw mekonnen</span>
+                </h1>
+                <h2 class="hero-subtitle">Full Stack Web Developer</h2>
+                <p class="hero-description">
+                    I create beautiful, functional, and user-friendly websites and applications.
+                    Passionate about clean code and innovative solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                    <div class="floating-shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src=" shfrw.jpg" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm a Web Developer</h3>
+                    <p>
+                        I'm a passionate full-stack web developer with over 5 years of experience 
+                        creating digital solutions. I specialize in building responsive, user-friendly 
+                        web applications using modern technologies.
+                    </p>
+                    <p>
+                        My journey in web development started with a curiosity about how websites work, 
+                        and it has evolved into a career where I get to solve complex problems and 
+                        create meaningful digital experiences.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="88"></div>
+                    </div>
+                    <span class="skill-percent">88%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="82"></div>
+                    </div>
+                    <span class="skill-percent">82%</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                    <span class="skill-percent">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Some of my recent work</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src=" https://via.placeholder.com/600x400/4a90e2/ffffff?text=Project+1" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with React and Node.js</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/50c878/ffffff?text=Project+2" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management application</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/ff6b6b/ffffff?text=Project+3" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather information dashboard</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>HTML5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/9b59b6/ffffff?text=Project+4" alt="Project 4">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Analytics dashboard for social media metrics</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>REST API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/f39c12/ffffff?text=Project+5" alt="Project 5">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Responsive portfolio website template</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400/1abc9c/ffffff?text=Project+6" alt="Project 6">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Platform</h3>
+                        <p>Modern blogging platform with CMS</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>MongoDB</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Web Developer</h3>
+                        <h4>Tech Solutions Inc.</h4>
+                        <p>Leading development of enterprise web applications. Mentoring junior developers and implementing best practices.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <h4>Digital Agency</h4>
+                        <p>Developed and maintained multiple client websites and web applications using modern frameworks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>Startup Company</h4>
+                        <p>Built responsive user interfaces and collaborated with design teams to implement pixel-perfect designs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register">
+        <div class="container">
+            <h2 class="section-title">Register</h2>
+            <p class="section-subtitle">Create an account to stay connected</p>
+            <div class="register-content">
+                <form class="register-form" id="registerForm">
+                    <div class="form-group">
+                        <input type="text" name="name" id="regName" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="regEmail" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" id="regPassword" placeholder="Password (min 6 characters)" required minlength="6">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                    <div id="registerMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's work together on your next project</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>supershifee@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+251938158413</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Ethiopia,Oromia,Ambo University</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved. | <a href="/admin" style="color: #fff; text-decoration: none;">View Registered Users</a></p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
