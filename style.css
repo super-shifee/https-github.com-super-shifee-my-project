@@ -1,0 +1,675 @@
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+body{
+    background-color:steelblue ;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.content{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    margin: 0;
+    flex-shrink: 0;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-shrink: 0;
+    min-width: 300px;
+}
+.search input[type="text"]{
+    font-family: 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    border-right: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-sizing: border-box;
+}
+.search input[type="text"]:focus{
+    outline: none;
+    border-color: orange;
+}
+.search input[type="text"]::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 1px solid orange;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+.btn:hover{
+    background: #ff8c00;
+    border-color: #ff8c00;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+ 
+.name{
+    height:auto ;
+    margin:auto ;
+    width:1200px;
+    position: relative;
+    color: #fff;
+}
+.name .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px ;
+}
+.name h1{
+    font-family: 'times new roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.name .Aa{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+.Aa:hover{
+    background-color: #fff;
+}
+
+.name span{
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,8)50%,rgba(0,0,0,8)50%);
+    position: absolute;
+    top: 50px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 100px;
+}
+.form h2{
+    font-family: sans-serif;
+    width: 220px;
+    text-align: center;
+    color: orange;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top:20px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: orange;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.social-icons a{
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+.social-icons a:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+
+/* Navigation active state */
+ul li a.active {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+/* Page Content Styles */
+.page-content {
+    width: 1200px;
+    margin: 120px auto 50px;
+    color: #fff;
+    min-height: calc(100vh - 200px);
+}
+
+.page-content h1 {
+    font-size: 48px;
+    color: orange;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+
+/* About Page Styles */
+.about-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-card {
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+}
+
+.about-card h2 {
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.about-card p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.features-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Services Page Styles */
+.services-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-card {
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3);
+}
+
+.service-card h3 {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.service-card p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Design Page Styles */
+.design-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-intro {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.design-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.design-card {
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.design-card:hover {
+    transform: translateY(-5px);
+}
+
+.design-placeholder {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg, rgba(255, 165, 0, 0.3), rgba(255, 165, 0, 0.1));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.design-card h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.design-card p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Page Styles */
+.contact-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contact-form-wrapper {
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+}
+
+.contact-form-wrapper h2 {
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form-wrapper textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form-wrapper input:focus,
+.contact-form-wrapper textarea:focus {
+    outline: none;
+    border-bottom: 2px solid orange;
+}
+
+.contact-info {
+    background: linear-gradient(to top, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.6) 50%);
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 165, 0, 0.3);
+}
+
+.contact-info h2 {
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.info-item {
+    margin-bottom: 25px;
+}
+
+.info-item h3 {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.info-item p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+/* Button Link Styles */
+.Aa a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aa:hover a {
+    color: orange;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .content {
+        width: 95%;
+    }
+    
+    .name {
+        width: 95%;
+    }
+    
+    .page-content {
+        width: 95%;
+    }
+    
+    .form {
+        left: auto;
+        right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .menu {
+        width: 100%;
+        margin-bottom: 15px;
+        min-width: auto;
+    }
+    
+    ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    ul li {
+        margin: 0;
+    }
+    
+    .search {
+        width: 100%;
+        margin-top: 10px;
+        min-width: auto;
+    }
+    
+    .search input[type="text"] {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .name h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    
+    .form {
+        position: relative;
+        width: 90%;
+        margin: 30px auto;
+        left: auto;
+        right: auto;
+    }
+    
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .services-grid,
+    .design-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .page-content h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 24px;
+    }
+    
+    ul {
+        gap: 10px;
+    }
+    
+    ul li {
+        font-size: 12px;
+    }
+    
+    .name h1 {
+        font-size: 28px;
+    }
+    
+    .page-content h1 {
+        font-size: 28px;
+    }
+    
+    .about-card,
+    .service-card,
+    .design-card {
+        padding: 20px;
+    }
+    
+    .search {
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .search input[type="text"] {
+        flex: 1;
+        border-radius: 5px 0 0 5px;
+        border-right: none;
+    }
+    
+    .btn {
+        width: auto;
+        min-width: 80px;
+        border-radius: 0 5px 5px 0;
+    }
+}
